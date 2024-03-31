@@ -1,0 +1,233 @@
+/*desltop view*/
+@media screen and (max-width:1920px) {
+    body{
+        background: linear-gradient(196deg, #DFE4D7 21.23%, rgba(183, 186, 178, 0.00) 98.99%);
+        
+    }
+
+    .FarmerConnect{
+        font-family: "Kaushan Script", cursive;
+        color: #555843;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 40px;
+        position: absolute;
+        top: 12px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        background-image: url(farmer.png);
+        background-size: contain;
+        margin-top: 5px;
+    }
+   
+}
+/*mobile view*/
+
+@media screen and (max-width:425px) {
+    
+    body{
+        background: linear-gradient(196deg, #DFE4D7 21.23%, rgba(183, 186, 178, 0.00) 98.99%);
+        
+    }
+
+    .FarmerConnect{
+        font-family: "Kaushan Script", cursive;
+        color: #555843;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 40px;
+        position: absolute;
+        top: 12px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        background-image: url(farmer.png);
+        background-size: contain;
+        margin-top: 5px;
+    }
+    .container1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .para-div{
+        width: 250px;   
+    }
+    .lady-pic{
+        position: absolute;
+        left: 210px;
+        width: 150px;
+        height: 150px;
+        background-image: url("lady.jpg");
+        background-size: cover;
+    }
+    
+    h2{
+        color: #555843;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;   
+        position: absolute;
+        top: 300px;
+        left: 130px;
+    }
+    .login{
+        display: flex;
+    }
+    .button{
+        position: absolute;
+        top: 240px;
+        width: 78px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #A7D397;
+    }
+    .button1{
+        position: absolute;
+        top: 240px;
+        left: 100px;
+        width: 78px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #A7D397;
+    }
+    #para{
+        position: absolute;
+        top: 50px;
+        font-size: 12px;
+        font-weight: lighter;
+
+    }
+    .container2{
+        display: flex;
+        margin-top: 350px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card{
+        margin: 10px;
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        background: #F5EEC8;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .title{
+        padding-left:2px;
+        margin-top: 55px;
+        color: #555843;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .img-div{
+        height: 75px;
+        border-radius: 5px
+    }
+    .words-div{
+        height: 70px;
+        border-radius: 5px
+    }
+    .card-img{
+        position: relative;
+        margin: 0px;
+        border-radius: 5px;
+    }
+    .card-btn{
+        font-size: 8px;
+        width: 60px;
+        height: 25px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #A7D397;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    .card-name{
+        color: #555843;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .sample-description{
+        font-size: 11px;
+    }
+    .input-header{
+        color: #555843;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .mail-input{
+        width: 250px;
+        height: 30px;
+        background-color: #D9D9D9;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin: 10px 10px 10px 50px; 
+    }
+    .complaint-input{
+        width: 250px;
+        height: 150px;
+        background-color: #D9D9D9;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin: 10px 10px 10px 50px;
+    }
+    .footer{
+        margin: 0;
+        width: 100%;
+        height: 300px;
+        background-color: #A7D397;
+    }
+    .FarmerConnect-footer{
+        font-family: "Kaushan Script", cursive;
+        color: #555843;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 10px;
+    }
+    .footer-lines{
+        font-size: 12px;
+        color: #555843;
+        text-align:center;
+        margin: 5px;
+    }
+    .contacts{
+        width: 100%;
+        height: 30px;
+        margin: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;   
+    }
+    .help-center{
+        position: static;
+        color: #555843;
+        text-align:start;  
+    }
+    .contacts-head{
+        color: #555843;
+        margin-left: 150px;
+        font-weight: bolder;
+    }
+}

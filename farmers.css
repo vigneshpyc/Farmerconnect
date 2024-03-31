@@ -1,0 +1,114 @@
+body{
+    background-color:#b3b6ae ;
+   
+    padding: 0px;
+    
+}
+h3{
+    color: red;
+    text-align: center;
+}
+.container2{
+    width: 400px;
+    height: 500px;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url('planting\ trees.jpg');
+    background-size: cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+.container3{
+    width: 700px;
+    height: 500px;
+    background-color: #F5EEC8;
+    border-radius: 0px 10px 10px 0px;
+    
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+    
+    
+}
+.circle{
+    width:150px;
+    height: 150px;
+    border-radius: 150px;
+    margin: 50px 0px 0px 250px;
+    background-image: url(farmer.png);
+    background-size: cover;
+    
+}
+.login{
+    margin-left: 100px;
+    color:#555843 ;
+    font-size: 10px;
+
+}
+input{
+    width: 400px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-left: 100px;
+}
+hr{
+    width: 500px;
+    justify-content: left;
+}
+.design{
+    width: 1020px;
+    height: 900px;
+    background-color: #A7D397;
+    rotate: 45deg;
+    position: absolute;
+    top: 50px;
+    left: -300px;
+    z-index: -1;
+}
+.login-btn{
+    font-weight: bold;
+        color: #555843;
+        width: 100px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #A7D397;
+        margin: 10px 0px 0px 200px;
+}
+@media screen and (max-width:425px) {
+    body{
+        overflow: hidden;   
+    }
+    .container2,.design{
+        display: none;
+    }
+    .container3{
+        width: 350px;
+        height: 500px;
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+    .circle{
+        width: 100px;
+        height: 100px;
+        border-radius: 150px;
+        margin-left: 130px;
+    }
+    .login{
+        margin-left: 10px;
+    }
+    hr{
+        width: 300px;
+    }
+    .login-btn{
+        margin-left: 100px;
+    }
+
+}

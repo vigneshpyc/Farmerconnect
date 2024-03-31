@@ -1,0 +1,18 @@
+.container1 {
+        display: flex;
+        
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        color: #555843;
+        line-height: normal;
+        position: absolute;
+        top: 100px;    
+    }
+    img{
+        margin: 0px 0px 0px 20px;
+    }
+
+
+    desktop view
+    

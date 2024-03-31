@@ -1,0 +1,134 @@
+body{
+    background-color: #b3b6ae;
+    overflow-x: hidden;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;   
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-image: url(farmer.png);
+    background-size: contain;
+    margin-top: 5px;
+}
+.FarmerConnect{
+    font-family: "Kaushan Script", cursive;
+    color: #555843;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 5px;
+}
+.gree-deco{
+        width: 900px;
+        height: 900px;
+        background-color: #A7D397;
+        border-radius: 90px;
+        position: absolute;
+        top: 0px;
+        left: 900px;
+        z-index: -1;
+        rotate: 45deg;
+}
+.input{
+    width: 700px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 300px;
+    text-align: center;
+    font-size: 20px;
+}
+.container1{
+    color: #555843;
+    width: 900px;
+    height: 300px;
+    background-color: #F5EEC8;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-top:50px ;
+    
+}
+.words{
+    width: 500px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.img-div{
+    margin-top: 50px;
+}
+.more-details{
+       font-weight: bold;
+        color: #555843;
+        width: 100px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #A7D397;
+}
+.label{
+    color: red;
+}
+@media screen and (max-width:425px) {
+    body{
+        background-color: #b3b6ae;
+        overflow-x: hidden;
+    }
+    .gree-deco{
+        width: 400px;
+        height: 400px;
+        background-color:#A7D397;
+        border-radius: 60px;
+        position: absolute;
+        top: -5px;
+        left: 300px;
+    }
+    .input{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .container1{
+        color: #555843;
+        width: 400px;
+        height: 300px;
+        background-color: #F5EEC8;
+        border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 0px;
+        margin-top:50px ;
+       overflow: hidden;
+    }
+    .words{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-around;
+    }
+    .input{
+        width: 300px;
+        margin-left: 50px;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    .label{
+        color: red;
+    }
+}
+

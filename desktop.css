@@ -1,0 +1,293 @@
+body{
+        /*background: linear-gradient(196deg, #DFE4D7 21.23%, rgba(183, 186, 178, 0.00) 98.99%);    */
+        background-color: #b3b6ae;
+        overflow-x: hidden;
+        
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;   
+    }
+    li{
+        list-style-type: none;
+        padding: 20px;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-left: 800px;
+    }
+    .gree-deco{
+        width: 900px;
+        height: 900px;
+        background-color: #A7D397;
+        border-radius: 90px;
+        position: absolute;
+        top: 0px;
+        left: 900px;
+        z-index: -1;
+        rotate: 45deg;
+    }
+    a{
+        text-decoration: none;
+        color: #555843;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        background-image: url(farmer.png);
+        background-size: contain;
+        margin-top: 5px;
+    }
+    .FarmerConnect{
+        font-family: "Kaushan Script", cursive;
+        color: #555843;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: normal;
+        margin: 5px;
+    }
+    /*container deisign*/
+    .heading{
+        font-size: 60px;
+        color: #555843;
+        font-weight: bold;
+    }
+    #para{
+        font-size: 25px;
+        color: #555843;
+    }
+    .button,.button1{
+        width: 100px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #A7D397;
+        margin: 10px 0px 0px 50px;
+    }
+    #our-services,#help-center{
+        text-align: center;
+        font-size: 40px;
+        color: #555843;
+    }
+    .card{
+        font-weight: bold;
+        width: 350px;
+        height: 250px;
+        border-radius: 10px;
+        background: #F5EEC8;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin: 10px;
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .img-div{
+        width: 100%;
+        height: 100px;
+        border-radius: 5px;
+        
+    }
+    .words-div{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .card-btn{
+        font-weight: bold;
+        color: #555843;
+        width: 100px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #A7D397;
+        margin: 20px 0px 0px 120px;
+
+    }
+    .card-name{
+        color: #555843;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .footer{
+        margin: 0;
+        width: 100%;
+        height: 300px;
+        background-color: #A7D397;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .FarmerConnect-footer{
+        font-family: "Kaushan Script", cursive;
+        color: #555843;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 10px;
+    }
+    .regions{
+        display: flex;
+        color: #555843;   
+    }
+    .regions li {
+        list-style: none;
+        padding: 10px;
+        
+    }
+    li:nth-child(1){
+        font-size: 20px;
+        font-weight: bold;
+        color: #555843;
+    }
+    /*help center design*/
+    .mail-input{
+        width: 700px;
+        height: 30px;
+        background-color: #D9D9D9;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin: 0px 0px 0px 350px;
+        
+    }
+    .complaint-input{
+        width: 700px;
+        height: 150px;
+        background-color: #D9D9D9;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin: 0px 0px 0px 350px;
+    }
+    .help-center{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .input-header{
+        margin: 0px 0px 0px 250px;
+        color: #555843;
+    }
+    #card-btn{
+        color: #555843;
+        width: 100px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #A7D397;
+        margin: 10px 0px 10px 600px;
+
+    }
+    .card-img{
+        width: 100px;
+        height: 100px;
+        margin: 10px 0px 0px 120px;
+    }
+    .contacts{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .contacts-head{
+        color: #555843;
+    }
+    
+
+@media screen and (max-width:425px) {
+     body{
+        /*background: linear-gradient(196deg, #DFE4D7 21.23%, rgba(183, 186, 178, 0.00) 98.99%);*/
+        background-color: #b3b6ae;
+        overflow-x: hidden;
+        
+    }
+    .nav-bar{
+        display: none;
+    }
+    .gree-deco{
+        width: 400px;
+        height: 400px;
+        background-color:#A7D397;
+        border-radius: 60px;
+        position: absolute;
+        top: -5px;
+        left: 300px;
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card{
+       
+        margin: 10px;
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        background: #F5EEC8;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .card-name{
+        font-size: 15px;
+        margin: 50px 0px 0px 0px;   
+    }
+    .card-btn{
+        position: relative;
+        color: #555843;
+        width: 60px;
+        height: 30px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #A7D397;
+        font-size: 10px;
+        margin: 0px 0px 0px 40px;
+    }
+    .img-div{
+        margin: 0%;
+        width: 50px;
+        height: 50px;
+    }
+    .help-center{
+        margin-left: 0px;
+    }
+    .card-img{
+        width: 60px;
+        height: 60px;
+        margin-left: 50px;
+    }
+    .regions{
+        display: none;
+    }
+    .help-center{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+ 
+    }
+    .mail-input,.complaint-input{
+        width: 300px;
+        margin-left: 0px;
+    }
+    .input-header{
+        margin-left: 0px;
+    }
+    #help-center{
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    #card-btn{
+        margin-left: 100px;
+
+    }
+   
+}
