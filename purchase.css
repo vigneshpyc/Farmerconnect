@@ -1,0 +1,92 @@
+@media screen and (max-width:1920px) {
+
+    body{
+        background-color:#b3b6ae;
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;   
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
+        background-image: url(farmer.png);
+        background-size: contain;
+        margin-top: 5px;
+    }
+    .FarmerConnect{
+        font-family: "Kaushan Script", cursive;
+        color: #555843;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: normal;
+        margin: 5px;
+    }
+    .container1{
+        margin-left: 300px;
+        width: 600px;
+        padding: 15px;
+        background-color: #F5EEC8;
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    }
+    .sub-container1{
+        margin-top: 15px;
+        color: #555843;
+        width: 500px;
+       
+        margin-left: 40px;
+    }
+    h1{
+        padding: 0px;
+    }
+    .farmer-name{
+        font-size: 25px;
+        color: #555843;
+
+    }
+    .address{
+        width: 300px;
+        height: 100px;
+        background-color: #b3b6ae;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+    }
+    .card-btn{
+        font-weight: bold;
+        color: #555843;
+        width: 100px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #A7D397;
+        margin: 20px 0px 0px 120px;
+
+    }
+    #qtinp1,#qtinp2,#qtinp3{
+        width: 50px;
+        height: 25px;
+        border: none;
+        outline: none;
+        background-color: #b3b6ae;
+        border-radius: 5px;
+        margin: 15px;
+        font-size: 15px;
+    }
+    .confirm{
+        border-radius: 10px;
+        border: none;
+
+    }
+    .totmato{
+        margin-left: 500px;
+    }
+}
+a{
+    text-decoration: none;
+    color: #555843;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>purchase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="purchase.css">
+    <script src="purchase.js">
+
+    </script>
+</head>
+<body> 
+    <div class="container">
+        <div class="logo">
+
+        </div>
+
+            <h1 class="FarmerConnect">FarmerConnect</h1>
+    </div>
+    <img src="tomato.jpeg" alt="some technical error" class="totmato">
+    <div class="container1">
+        <div class="sub-container1">
+            <label for="#" class="farmer">Farmer</label><br>
+            <label class="farmer-name">Chandrasekar</label><br>
+            <label class="price">Rs.30 per kg</label><br>
+            <label class="quantity">Quantity</label><input type="number" id="qtinp1">Kg
+            <button class="confirm" onclick="total1()">Confirm</button><br>
+            <label class="total">Total</label><h3 id="total-cost1"></h3>
+            <button class="card-btn" ><a href="amount.html">Place Order</a></button><hr>
+        </div>
+
+        <div class="sub-container1">
+            <label for="#" class="farmer">Farmer</label><br>
+            <label class="farmer-name">Charllie</label><br>
+            <label class="price">Rs.25 per kg</label><br>
+            <label class="quantity">Quantity</label><input type="number" id="qtinp2">Kg
+            <button class="confirm" onclick="total2()">Confirm</button><br>
+            <label class="total">Total</label><h3 id="total-cost2"></h3>
+            <button class="card-btn" ><a href="amount.html">Place Order</a></button><hr>
+        </div>
+
+        <div class="sub-container1">
+            <label for="#" class="farmer">Farmer</label><br>
+            <label class="farmer-name">John</label><br>
+            <label class="price">Rs.35 per kg</label><br>
+            <label class="quantity">Quantity</label><input type="number" id="qtinp3">Kg
+            <button class="confirm" onclick="total3()">Confirm</button><br>
+            <label class="total">Total</label><h3 id="total-cost3"></h3>
+            <button class="card-btn" onclick="payment()"><a href="amount.html">Place Order</a></button><hr>
+        </div>
+    </div>
+    
+</body>
+</html>

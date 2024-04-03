@@ -1,9 +1,11 @@
-body{
-        /*background: linear-gradient(196deg, #DFE4D7 21.23%, rgba(183, 186, 178, 0.00) 98.99%);    */
-        background-color: #b3b6ae;
-        overflow-x: hidden;
-        
-    }
+@media screen and (max-width:1920px) {
+
+    body{
+            /*background: linear-gradient(196deg, #DFE4D7 21.23%, rgba(183, 186, 178, 0.00) 98.99%);    */
+            background-color: #b3b6ae;
+            overflow-x: hidden;
+            
+        }
     .container{
         display: flex;
         flex-wrap: wrap;
@@ -140,7 +142,6 @@ body{
     .regions li {
         list-style: none;
         padding: 10px;
-        
     }
     li:nth-child(1){
         font-size: 20px;
@@ -157,7 +158,6 @@ body{
         border-radius: 10px;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         margin: 0px 0px 0px 350px;
-        
     }
     .complaint-input{
         width: 700px;
@@ -202,8 +202,7 @@ body{
     .contacts-head{
         color: #555843;
     }
-    
-
+}
 @media screen and (max-width:425px) {
      body{
         /*background: linear-gradient(196deg, #DFE4D7 21.23%, rgba(183, 186, 178, 0.00) 98.99%);*/
@@ -290,4 +289,12 @@ body{
 
     }
    
+}
+marquee{
+    height: 30px;
+    background-color: #F5EEC8;
+    color: #555843;
+    font-size: 25px;
+    margin-top: 15px;
+  
 }
